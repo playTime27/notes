@@ -6,4 +6,18 @@ file: Only code in the same file can access the type or member.
 The base keyword is used to access members of the base class from within a derived class.
 The override keyword is used to provide a new implementation for a property inherited from a base class
 The virtual keyword is used to modify a property and allow for it to be overridden in a derived class
+To implement custom extension methods for method chaining, you must :
+  define a static class to contain the method extension
+  extension method is static with at least same visibility as containing class
+  the first parameter of the method is preceded by this and specifies the type that the method operates on
+
+Write an extension method StringLength in class StringExtension that takes a string input and returns the length of it
+
+public static class StringExtension
+{
+    public static int StringLength(this string str)
+        {
+            return str.Length;
+        }
+}
 
