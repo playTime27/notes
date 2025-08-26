@@ -21,3 +21,8 @@ public static class StringExtension
         }
 }
 
+Generics make it possible to design classes and methods that defer the specification of one or more type parameters until you use the class or method in your code
+
+Define a generic class named Student
+
+public class Student<T> {}
