@@ -26,3 +26,8 @@ Generics make it possible to design classes and methods that defer the specifica
 Define a generic class named Student
 
 public class Student<T> {}
+
+
+Events allow us to signal that state has changed
+
+public event EventHandler<string> EnrollmentFull;
