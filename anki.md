@@ -1,8 +1,8 @@
-Event raiser method: Initiates the event, announcing that something has happened.
-Event handler method: Reacts to the event, performing actions in response to the notification.
-Naming: "On" + EventName is the convention for event-raising methods
-The class that sends (or raises) the event is called the publisher
-classes that receive (or handle) the event are called subscribers.
+* Event raiser method: Initiates the event, announcing that something has happened.
+* Event handler method: Reacts to the event, performing actions in response to the notification.
+* Naming: "On" + EventName is the convention for event-raising methods
+* The class that sends (or raises) the event is called the publisher
+* classes that receive (or handle) the event are called subscribers.
 
 Create an event declaration , given the access level is public. The EventHandler is of type string and name is EnrollmentFull
 
